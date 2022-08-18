@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B34D08828AE64F60051A314 /* AssessmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B34D08728AE64F60051A314 /* AssessmentViewController.swift */; };
+		7B34D08A28AE655A0051A314 /* RecommendationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B34D08928AE655A0051A314 /* RecommendationsViewController.swift */; };
 		7B561FA428AD34FD00081E27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B561FA328AD34FD00081E27 /* AppDelegate.swift */; };
 		7B561FA628AD34FD00081E27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B561FA528AD34FD00081E27 /* SceneDelegate.swift */; };
 		7B561FA828AD34FD00081E27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B561FA728AD34FD00081E27 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B34D08728AE64F60051A314 /* AssessmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssessmentViewController.swift; sourceTree = "<group>"; };
+		7B34D08928AE655A0051A314 /* RecommendationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationsViewController.swift; sourceTree = "<group>"; };
 		7B561FA028AD34FD00081E27 /* testProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B561FA328AD34FD00081E27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B561FA528AD34FD00081E27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				7B561FA528AD34FD00081E27 /* SceneDelegate.swift */,
 				7B561FA728AD34FD00081E27 /* ViewController.swift */,
 				7B561FA928AD34FE00081E27 /* Main.storyboard */,
+				7B34D08928AE655A0051A314 /* RecommendationsViewController.swift */,
+				7B34D08728AE64F60051A314 /* AssessmentViewController.swift */,
 				7B561FAC28AD350700081E27 /* Assets.xcassets */,
 				7B561FAE28AD350700081E27 /* LaunchScreen.storyboard */,
 				7B561FB128AD350700081E27 /* Info.plist */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B561FA828AD34FD00081E27 /* ViewController.swift in Sources */,
+				7B34D08A28AE655A0051A314 /* RecommendationsViewController.swift in Sources */,
 				7B561FA428AD34FD00081E27 /* AppDelegate.swift in Sources */,
+				7B34D08828AE64F60051A314 /* AssessmentViewController.swift in Sources */,
 				7B561FA628AD34FD00081E27 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
