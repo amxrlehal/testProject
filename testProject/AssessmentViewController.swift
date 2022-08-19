@@ -9,6 +9,7 @@ import UIKit
 
 class AssessmentViewController: UIViewController {
     
+    @IBOutlet weak var isolationSlider: UISlider!
     
     @IBOutlet weak var recText: UILabel!
     
@@ -21,19 +22,31 @@ class AssessmentViewController: UIViewController {
         
     }
     
-    @IBAction func isoSlider(_ sender: UISlider) {
-        let sliderValue = sender.value
-        if sliderValue > 50 {
+    @IBAction func sliderSlid(_ sender: UISlider) {
+        let isolationLevel: Float = isolationSlider.value
+        if isolationLevel > 50 {
+            recText.text = "Select more to get help"
+        }
+        else if isolationLevel < 50 {
+            recText.text = "Click continue"
+            }
+    
+        
+    }
+    
+    }
+    
         
             
             
-        }
+        
         
        
         
         
-    }
+
     
     
 
-}
+
+
