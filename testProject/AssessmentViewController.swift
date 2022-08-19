@@ -9,7 +9,7 @@ import UIKit
 
 class AssessmentViewController: UIViewController {
     
-    @IBOutlet weak var isolationSlider: UISlider!
+    
     
     @IBOutlet weak var recText: UILabel!
     
@@ -22,19 +22,31 @@ class AssessmentViewController: UIViewController {
         
     }
     
-    @IBAction func sliderSlid(_ sender: UISlider) {
-        let isolationLevel: Float = isolationSlider.value
-        if isolationLevel > 50 {
-            recText.text = "Select more to get help"
-        }
-        else if isolationLevel < 50 {
-            recText.text = "Click continue"
-            }
     
-        
+    
+    @IBAction func strongNoTapped(_ sender: Any) {
+        recText.text = "Press more to get help"
     }
     
+    @IBAction func noTapped(_ sender: Any) {
+        recText.text = "Press more to get help"
     }
+    
+    @IBAction func maybeTapped(_ sender: Any) {
+        recText.text = "Click continue, or select more if you would like some advice"
+    }
+    
+    @IBAction func yesTapped(_ sender: Any) {
+        recText.text = "Press more to get additional help"
+    }
+    
+    @IBAction func strongYesTapped(_ sender: Any) {
+        recText.text = "Press more to get additional help"
+    }
+    
+}
+    
+    
     
         
             
